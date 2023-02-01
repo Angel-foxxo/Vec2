@@ -17,7 +17,7 @@ class Vec2
     }
 
     function _get(i)
-	{
+    {
 		switch(i)
 		{
 			case 0: return x;
@@ -49,10 +49,10 @@ class Vec2
     function _nexti(i)
     {
         switch(i)
-		{
+        {
 			case null: return 0;
 			case 0: return 1;
-		}
+        }
     }
 
     function _add(v)

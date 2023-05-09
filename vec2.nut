@@ -9,7 +9,7 @@ class Vec2
     x = 0.0;
     y = 0.0;
 
-    constructor(c_x, c_y)
+    constructor(c_x=0, c_y=0)
     {
         vec = Vector(c_x, c_y, 0);
         x = vec.x;
